@@ -33,7 +33,7 @@ public final class FlutterCompassPlugin implements FlutterPlugin, StreamHandler 
     private static final float ALPHA = 0.45f;
 
     // Controls the compass update rate in milliseconds
-    private static final int COMPASS_UPDATE_RATE_MS = 32;
+    private static final int COMPASS_UPDATE_RATE_MS = 200;
 
     private SensorEventListener sensorEventListener;
 
